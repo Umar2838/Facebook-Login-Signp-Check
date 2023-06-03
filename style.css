@@ -1,0 +1,308 @@
+.body {
+  background-color: rgba(255, 255, 255, 0.836);
+  direction: ltr;
+  line-height: 1.34;
+  margin: 0;
+  padding: 0;
+}
+.div {
+  margin: 200px;
+  margin-left: 140px;
+}
+.logo {
+  height: 106px;
+  margin: -28px;
+  border: 0;
+}
+.para {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 32px;
+  width: 500px;
+  margin-top: 18px;
+  margin-left: 0px;
+}
+form {
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  box-sizing: border-box;
+  margin: 40px 0 0;
+  padding: 20px 0 28px;
+  width: 396px;
+  margin-top: -400px;
+  margin-left: 700px;
+}
+.email {
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 330px;
+  border-radius: 6px;
+  border: 1px solid #dddfe2;
+  color: #1d2129;
+  margin-left: 17px;
+}
+.email:focus {
+  outline: none !important;
+  border-color: #3c8fe7;
+}
+.pass {
+  font-size: 17px;
+  margin-left: 17px;
+  padding: 14px 16px;
+  width: 330px;
+  border-radius: 6px;
+  border: 1px solid #dddfe2;
+  color: #1d2129;
+  display: flex;
+  margin-top: 18px;
+}
+.pass:focus {
+  outline: none !important;
+  border-color: #3c8fe7;
+}
+
+.button {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 332px;
+  margin-top: 20px;
+  margin-left: 17px;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #fff;
+  box-sizing: content-box;
+  font-weight: bold;
+}
+#a {
+  text-decoration: none;
+  color: #fff;
+}
+.button:hover {
+  background-color: #0e71f1;
+}
+.forget {
+  color: #1877f2;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 147px;
+}
+.forget:hover {
+  text-decoration: underline;
+}
+.line {
+  align-items: center;
+  border-bottom: 1px solid #dadde1;
+  display: flex;
+  margin: 20px 16px;
+  text-align: center;
+}
+.button2 {
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  line-height: 48px;
+  padding: 0 16px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  white-space: nowrap;
+  line-height: 42px;
+  padding: 0 24px;
+  background-color: #42b72a;
+  border-color: #42b72a;
+  margin-left: 90px;
+}
+.button2:hover {
+  background-color: #379e22;
+}
+.para1 {
+  margin-left: 750px;
+}
+button {
+  font-weight: bold;
+  border: none;
+  background-color: white;
+}
+p > button:hover {
+  text-decoration: underline;
+}
+/* Sign up*/
+.div2 {
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  background: transparent;
+  border-radius: 8px;
+  background-color: #fff;
+  border-radius: 8px 8px 0 0;
+  box-sizing: content-box;
+  padding: 10px 16px;
+  position: relative;
+  width: 433px;
+  z-index: 1;
+  background-color: #fff;
+  margin-top: 100px;
+  padding-top: 5px;
+  position: absolute;
+  margin-left: 370px;
+}
+.goback {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  z-index: 2;
+}
+.input1 {
+  background: #f5f6f7;
+  position: relative;
+  border-style: solid;
+  width: 170px;
+  padding: 11px;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 14px;
+  border-color: #ccd0d5;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+.input2 {
+  margin-left: 10px;
+  background: #f5f6f7;
+  position: relative;
+  border-style: solid;
+  width: 170px;
+  padding: 11px;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 14px;
+  border-color: #ccd0d5;
+  border-radius: 5px;
+}
+.email2 {
+  margin-left: 12px;
+  background: #f5f6f7;
+  position: relative;
+  border-style: solid;
+  width: 89%;
+  margin-top: 10px;
+  padding: 11px;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 14px;
+  border-color: #ccd0d5;
+  border-radius: 5px;
+}
+.phone2 {
+  margin-left: 12px;
+  background: #f5f6f7;
+  position: relative;
+  border-style: solid;
+  width: 89%;
+  margin-top: 10px;
+  padding: 11px;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 14px;
+  border-color: #ccd0d5;
+  border-radius: 5px;
+}
+.date {
+  color: #606770;
+  font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 4px;
+  line-height: 20px;
+  margin-bottom: 0;
+  margin-top: 12px;
+  margin-left: 12px;
+}
+
+._1st {
+  overflow: visible !important;
+  width: 133px;
+  margin-left: 8px;
+  border: 2px solid #ccd0d5;
+  border-radius: 4px;
+  color: #1c1e21;
+  font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  height: 36px;
+  line-height: 20px;
+  background-position: right 5px center;
+  background-repeat: no-repeat;
+  background-size: 14px;
+  padding: 0 8px;
+  padding-right: 20px;
+}
+
+._2st {
+  overflow: visible !important;
+  width: ;
+  margin-left: 8px;
+  border: 2px solid #ccd0d5;
+  border-radius: 4px;
+  color: #1c1e21;
+  font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  height: 36px;
+  line-height: 20px;
+  background-position: right 5px center;
+  background-repeat: no-repeat;
+  background-size: 14px;
+  padding: 0 8px;
+  padding-right: 20px;
+}
+.para3 {
+  width: auto;
+  color: #777;
+  font-size: 11px;
+  width: 316px;
+  margin-left: 10px;
+}
+a {
+  color: #385898;
+  cursor: pointer;
+  text-decoration: none;
+}
+._58mv {
+  color: #777;
+  font-size: 11px;
+  width: 316px;
+  margin-left: 10px;
+}
+.but {
+  width: 200px;
+  background: none;
+  background-color: #00a400;
+  border: none;
+  border-radius: 6px;
+  box-shadow: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  height: 36px;
+  overflow: hidden;
+  padding: 0 32px;
+  text-shadow: none;
+  box-shadow: inset 0 1px 1px #a4e388;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  margin-left: 110px;
+}
+.but:hover {
+    background-color: #a4e388;
+  }
