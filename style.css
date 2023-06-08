@@ -23,7 +23,7 @@
   margin-top: 18px;
   margin-left: 0px;
 }
-form {
+.form {
   align-items: center;
   background-color: #fff;
   border: none;
@@ -251,7 +251,7 @@ p > button:hover {
 
 ._2st {
   overflow: visible !important;
-  width: ;
+  
   margin-left: 8px;
   border: 2px solid #ccd0d5;
   border-radius: 4px;
